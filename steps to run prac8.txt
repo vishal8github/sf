@@ -1,0 +1,22 @@
+create virtual env
+	py -m venv venv_name
+
+install django
+	pip install django
+
+create project
+	django-admin startproject project_name
+
+cd to project
+	cd project_name
+
+create polls app
+	django-admin startapp polls
+
+follow the steps in the journal
+
+run project
+	py manage.py runserver
+
+write the correct url
+	localhost/polls
